@@ -1,69 +1,80 @@
 # Description: This file is for the second day of the python workshop
 
 
-# create variables for the following :
-# 1. age
-age = 25
-# 2. name
-name = "John"
-# 3. song
-song = "Happy Birthday"
-# 4. food
-food = "bananas"
-# 5. number
-number = 100
-priceOfMovie = 10.99
-#now include the variables you just made print in the following...
-print(f'''Once upon a time, there was a {age} old coder named {name}.
-{name} liked to hum the song {song} while coding. It was so annoying that their teammates would
-throw {food}until {name} would stop singing.
-Still, {name} was the best coder on the team and could write {number} lines of code every day.
-Maybe {song} was {name} secret power?
-No one will ever know.''')
+# # create variables for the following :
+# # 1. age
+# age = 25
+# # 2. name
+# name = "John"
+# # 3. song
+# song = "Happy Birthday"
+# # 4. food
+# food = "bananas"
+# # 5. number
+# number = 100
+# priceOfMovie = 10.99
+# #now include the variables you just made print in the following...
+# print(f'''Once upon a time, there was a {age} old coder named {name}.
+# {name} liked to hum the song {song} while coding. It was so annoying that their teammates would
+# throw {food}until {name} would stop singing.
+# Still, {name} was the best coder on the team and could write {number} lines of code every day.
+# Maybe {song} was {name} secret power?
+# No one will ever know.''')
 
-#f string interpolation is a way to format strings in python.
-#it allows you to use variables inside of strings.
-# What is syntax ? Is a way of writing code that is correct and follows the rules of the language
-#In python
-#name = "john" #javascript syntax
-#what is an algorithm 
-#a set of instrucations that are followed to soove a problem
-# what is a variable? What is a string?
-#variables holds data
-# name ="john" #string this is defined
-#age= is undefined because it has no value
-# strings are nothing but plain text
-# what does this do?
-print("Giraffe \n academy")
-#\n makes a new line
-print("Giraffe \t academy")
-#\t makes a tab
+# #f string interpolation is a way to format strings in python.
+# #it allows you to use variables inside of strings.
+# # What is syntax ? Is a way of writing code that is correct and follows the rules of the language
+# #In python
+# #name = "john" #javascript syntax
+# #what is an algorithm 
+# #a set of instrucations that are followed to soove a problem
+# # what is a variable? What is a string?
+# #variables holds data
+# # name ="john" #string this is defined
+# #age= is undefined because it has no value
+# # strings are nothing but plain text
+# # what does this do?
+# print("Giraffe \n academy")
+# #\n makes a new line
+# print("Giraffe \t academy")
+# #\t makes a tab
 
-# or this
-phrase = "python learning"
-print(phrase + "is cool") 
-#this is called concatenation or string interpolation 
-#what does the + sign do? What is it called?
+# # or this
+# phrase = "python learning"
+# print(phrase + "is cool") 
+# #this is called concatenation or string interpolation 
+# #what does the + sign do? What is it called?
 
-#what if I wanted to get the length of a phrase?
-# phrase = str(phrase)
-print(f'the length of the phrase {len(phrase)}')
-declarationOfInDependece = "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.--That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed, --That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government, laying its foundation on such principles and organizing its powers in such form, as to them shall seem most likely to effect their Safety and Happiness. Prudence, indeed, will dictate that Governments long established should not be changed for light and transient causes; and accordingly all experience hath shewn, that mankind are more disposed to suffer, while evils are sufferable, than to right themselves by abolishing the forms to which they are accustomed. But when a long train of abuses and usurpations, pursuing invariably the same Object evinces a design to reduce them under absolute Despotism, it is their right, it is their duty, to throw off such Government, and to provide new Guards for their future security.--Such has been the patient sufferance of these Colonies; and such is now the necessity which constrains them to alter their former Systems of Government. The history of the present King of Great Britain is a history of repeated injuries and usurpations, all having in direct object the establishment of an absolute Tyranny over these States. To prove this, let Facts be submitted to a candid world."
-#find the length of the declaration of independence
+# # #what if I wanted to get the length of a phrase?
+# # # phrase = str(phrase)
+# # print(f'the length of the phrase {len(phrase)}')
+# # declarationOfInDependece = "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.--That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed, --That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government, laying its foundation on such principles and organizing its powers in such form, as to them shall seem most likely to effect their Safety and Happiness. Prudence, indeed, will dictate that Governments long established should not be changed for light and transient causes; and accordingly all experience hath shewn, that mankind are more disposed to suffer, while evils are sufferable, than to right themselves by abolishing the forms to which they are accustomed. But when a long train of abuses and usurpations, pursuing invariably the same Object evinces a design to reduce them under absolute Despotism, it is their right, it is their duty, to throw off such Government, and to provide new Guards for their future security.--Such has been the patient sufferance of these Colonies; and such is now the necessity which constrains them to alter their former Systems of Government. The history of the present King of Great Britain is a history of repeated injuries and usurpations, all having in direct object the establishment of an absolute Tyranny over these States. To prove this, let Facts be submitted to a candid world."
+# # #find the length of the declaration of independence
 
-print(f'the length of the declaration is{len(declarationOfInDependece)}')
+# # print(f'the length of the declaration is{len(declarationOfInDependece)}')
+
 #len allows you to find the length of a string
+ 
 
 #what if I wanted to make the letters in the variable upper case or lower?
-
-
-
+new_phrase = "welcome to day 2 part 3"
+print(len(new_phrase))
+print(new_phrase.upper())
+# .upper is a method that makes the string all uppercase
+# parenthese are used to call methods
+print(new_phrase.lower())
+# .lower is a method that makes thr string all lower case
 
 #what if I wanted to check and see if the phrase was all lower or upper?
-
+print(new_phrase.islower()) 
+# returns a boolean true or flase
 
 #What if I wanted to get one letter of the phrase
-
+print(new_phrase[0])# prints the first letter of the phrase
+print(new_phrase[1]) # prints the 2nd letter of the phrase
+print(new_phrase[2]) # prints the 3rd letter of the phrase
+print(new_phrase[11]) # prints the 11 letter of the phrase
+print(new_phrase[-1]) # prints the last letter of the phrase
 
 # The names you use when creating these labels need to follow a few rules:
 # 1. Names can not start with a number.
@@ -83,20 +94,28 @@ print(f'the length of the declaration is{len(declarationOfInDependece)}')
 
 
 # Addition
+print(2 +2)
 
 # Subtraction
+print(2 - 5)
 
 # Multiplication
+print(2 * 3)
 
 # Division
+print(10/2)
 
 # Modulus
+print(10 % 3) # 10 divided by 3 is 3 with a remainder of 1
 
 # Exponentiation
+print(2 ** 3) 
 
 # Floor Division
+print(10 // 3)
 
 # Order of Operations followed in Python
+print(2 * 3 + 1)
 
 # You can use parentheses to specify the order in which you want operations to be performed.
 
